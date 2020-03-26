@@ -1,0 +1,60 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<" Visit \n Attractions \n Home Page \n Animals \n Tickets/Membership";
+
+    return 0;
+}
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+  std::cout << "Ticket Options:\n " << std::endl;
+  std::cout <<"Child - $14.95\n" << std::endl;
+  std::cout <<"Adult - $19.95\n"<<std::endl;
+  std::cout <<"Senior - $16.95\n" << std::endl;
+  std::cout <<"Military - $16.95\n"<< std::endl;
+}
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+ std::cout << "Our mission is to educate our guests about conservation etc etc" << std::endl;
+}
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main ()
+{
+    string crdcrd;
+    string CID;
+    string date;
+    std::cout << "Enter credit card number with no spaces: " << std::endl;
+    std::cin >> crdcrd;
+    std::cout << "Enter 3 or 4 digit CID on card: " << std::endl;
+    std::cin >> CID;
+    std::cout << "Enter 4 digit form of date: " << std::endl;
+    std::cin >> date;
+    
+    std::cout << "You entered: "<< std::endl;
+    std::cout << crdcrd << std::endl;
+    std::cout << CID << std::endl;
+    std::cout << date << std::endl;
+    
+   
+}
+
+//I have not used C++ in a very long time and this is a bare minimum rudimentary form of all the programming
+// that would go into something like a payment method.
+// I don't believe there are any bugs but it's quite barebones.
+
